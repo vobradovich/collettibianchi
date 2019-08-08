@@ -1,19 +1,36 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "banner": [
+    {
+      "title": "Colletti Bianchi",
+      "subtitle": "",
+      "image": "../images/gallery/IMG_0245.JPG"
+    },
+    {
+      "title": "Colletti Bianchi",
+      "subtitle": "",
+      "image": "../images/gallery/PHOTO-2019-03-10-17-26-34_1.jpg"
+    }
+  ],
   "gallery": [{
     "title": "React Context",
     "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/IMG_0245.JPG"
   },
   {
     "title": "Page Transitions",
     "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/IMG_0471.JPG"
   },
   {
     "title": "Intersection Observer",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../images/gallery/IMG_5146.JPG"
+  },
+  {
+    "title": "Intersection Observer",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/PHOTO-2019-03-10-17-26-34_1.jpg"
   }]
 }

@@ -1,21 +1,12 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
+# La Storia
 
-```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
+Colletti Bianchi nasce nel 1996.
 
-# To develop
-yarn develop
+In poco tempo diventa un punto di riferimento per i cultori della camicia sartoria.
+La ricerca e l’utilizzo dei tessuti più pregiati, dagli infiniti intrecci e colori, danno vita ad uno stile unico e inconfondibile.
 
-# To build
-yarn build
+Il servizio “su misura” offerto da Colletti Bianchi mette a disposizione dei clienti ben oltre 250 varianti di tessuti ritorti e doppi ritorti, scelti tra le più importanti aziende tessili italiane.
 
-# To test SSR (for Lighthouse etc.)
-yarn ssr
+La sartoria, dedicata all’uomo, alla donna, al bambino, permette,inoltre, la personalizzazione della camicia attraverso la scelta più indicata dei colli, dei polsi, dei bottoni da applicare.
 
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
-```
+Colletti Bianchi è lo stile che scegli!

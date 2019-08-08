@@ -6,11 +6,12 @@ import Title from 'components/title';
 import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
+import Banner from 'components/banner';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
-    <Box>
+    {/* <Box>
       <Title as="h2" size="large">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
@@ -23,10 +24,11 @@ const Index = ({ data }) => (
           muted
         />
       </Modal>
-    </Box>
+    </Box> */}
+    <Banner items={data.homeJson.banner} />
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
-    <IOExample />
+    {/* <IOExample /> */}
   </Layout>
 );
 
@@ -49,6 +51,16 @@ export const query = graphql`
       gallery {
         title
         copy
+        image {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+      banner {
+        title
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
