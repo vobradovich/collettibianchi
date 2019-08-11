@@ -29,9 +29,9 @@ const Header = ({ title }) => (
       <Logo />
       {/* <Link to="/">
         <Title as="h1">{title}</Title>
-      </Link>
+      </Link> */}
 
-      <Nav /> */}
+      <Nav />
     </Container>
   </AnimatedContainer>
 );

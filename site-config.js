@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Colletti Binachi`,
-  siteTitleShort: `CollettiBinachi`,
-  siteDescription: `Colletti Binachi`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteTitle: `Colletti Bianchi`,
+  siteTitleShort: `CollettiBianchi`,
+  siteDescription: `Colletti Bianchi Luxury Shirt, Via XI Maggio, 122, Marsala, TP, Italy`,
+  siteUrl: `https://collettibianchi.it`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
@@ -13,4 +13,5 @@ module.exports = {
     twitter: `gatsbyjs`,
     fbAppId: `966242223397117`,
   },
+  googleMapsApiKey: process.env.MAPS_API_KEY,
 };

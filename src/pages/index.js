@@ -4,7 +4,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
+import Map from 'components/map';
 import Modal from 'containers/modal';
 import Banner from 'components/banner';
 import { graphql } from 'gatsby';
@@ -27,7 +27,8 @@ const Index = ({ data }) => (
     </Box> */}
     <Banner items={data.homeJson.banner} />
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
+    <Map />
+    <div style={{ height: '50vh' }} />    
     {/* <IOExample /> */}
   </Layout>
 );
