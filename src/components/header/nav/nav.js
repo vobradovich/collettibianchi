@@ -14,11 +14,19 @@ const Nav = () => (
         <a href="https://github.com/fabe/gatsby-universal">GitHub</a>
       </li> */}
       <li>
-        <a href="https://www.facebook.com/Colletti-Bianchi-446620442059309/" target="blank"><Facebook width="80" /></a>
+        <a
+          href="https://www.facebook.com/Colletti-Bianchi-446620442059309/"
+          target="blank"
+          title="facebook"
+        >
+          <Facebook width="64" />
+        </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/colletti_bianchi/" target="blank"><Instagram width="80" /></a>
-      </li>      
+        <a href="https://www.instagram.com/colletti_bianchi/" target="blank">
+          <Instagram width="64" />
+        </a>
+      </li>
     </ul>
   </Container>
 );

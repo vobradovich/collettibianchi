@@ -3,34 +3,59 @@
   "content": "intro.md",
   "banner": [
     {
-      "title": "Colletti Bianchi",
+      "title": "",
       "subtitle": "",
       "image": "../images/gallery/IMG_3264.jpg"
     },
     {
-      "title": "Colletti Bianchi",
+      "title": "",
       "subtitle": "",
       "image": "../images/gallery/IMG_3252.jpg"
     }
   ],
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/IMG_0245.JPG"
+    "title": "Camicie su misura con tessuti Thomas Mason",
+    "copy": "",
+    "image": "../images/gallery/IMG_7367.jpg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/IMG_0471.JPG"
+    "title": "Camicie da uomo",
+    "copy": "",
+    "image": "../images/gallery/IMG_0471.jpg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/IMG_5146.JPG"
+    "title": "Abito fresco di lana sartoriale uomo",
+    "copy": "",
+    "image": "../images/gallery/IMG_7356.jpg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/PHOTO-2019-03-10-17-26-34_1.jpg"
+    "title": "Personalizza la tua camicia",
+    "copy": "",
+    "image": "../images/gallery/IMG_7371.jpg"
+  },
+  {
+    "title": "Camicie su misura per donna",
+    "copy": "",
+    "image": "../images/gallery/IMG_7362.jpg"
+  },
+  {
+    "title": "Cinture uomo in pelle",
+    "copy": "",
+    "image": "../images/gallery/IMG_7373.jpg"
+  },
+  {
+    "title": "Cravatte in seta",
+    "copy": "",
+    "image": "../images/gallery/IMG_7376.jpg"
+  },
+  {
+    "title": "Pouchette",
+    "copy": "",
+    "image": "../images/gallery/IMG_7402.jpg"
+  },
+  {
+    "title": "Accessori uomo",
+    "copy": "",
+    "image": "../images/gallery/IMG_7354.jpg"
   }]
 }

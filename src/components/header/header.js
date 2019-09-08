@@ -25,12 +25,11 @@ const AnimatedContainer = posed.div({
 
 const Header = ({ title }) => (
   <AnimatedContainer>
-    <Container>
-      <Logo />
-      {/* <Link to="/">
-        <Title as="h1">{title}</Title>
-      </Link> */}
-
+    <Container>      
+      <Link to="/">
+        <Logo height="80" />
+        {/* <Title as="h1">{title}</Title> */}
+      </Link>
       <Nav />
     </Container>
   </AnimatedContainer>

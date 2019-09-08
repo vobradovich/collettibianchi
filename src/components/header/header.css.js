@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.header`
   display: flex;
@@ -14,5 +15,19 @@ export const Container = styled.header`
     &:hover {
       color: inherit;
     }
+
+    ${MEDIA.TABLET`
+      svg {
+        height: 40px;
+      }        
+    `};
   }
+
+  ${MEDIA.TABLET`
+    padding: 2rem;
+    
+    svg {
+      height: 40px;
+    }        
+  `};
 `;
